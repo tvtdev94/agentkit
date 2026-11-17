@@ -1,6 +1,6 @@
 ---
 name: refine-prompt
-description: "Rewrite a rough, vague or underperforming prompt into a paste-ready prompt for an AI model or agent, returned with a change table; never executes the task the prompt describes. Use when the user runs /refine-prompt or asks to improve, fix, tighten or write a prompt or agent instruction. Not for research briefs, session handoffs, SKILL.md authoring, marketing copy, or clarifying a task to run now."
+description: "Rewrite a rough, vague or underperforming prompt into a paste-ready prompt for an AI model or agent, returned with a change table; never executes the task the prompt describes. Use when the user runs /tvt:refine-prompt or asks to improve, fix, tighten or write a prompt or agent instruction. Not for research briefs, session handoffs, SKILL.md authoring, marketing copy, or clarifying a task to run now."
 when_to_use: "User explicitly asks to improve, rewrite, fix or write a prompt, system prompt, subagent prompt or agent instruction, e.g. 'cải thiện prompt này', 'viết lại prompt', 'sửa prompt cho Codex'. Hand off research briefs to ak-research-prompt, session handoffs to ak-handoff, skill files to ak-skill-creator, marketing copy to ak-write, and a vague task the user wants done now to ak-brainstorm."
 argument-hint: "[prompt text or file path]"
 disable-model-invocation: true

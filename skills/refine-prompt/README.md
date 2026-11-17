@@ -10,17 +10,18 @@ change table so you can check every edit. It returns a prompt; it never runs the
 In Claude Code (2.1.275 or later):
 
 ```
-/plugin install refine-prompt --marketplace tvtdev94/agentkit
+/plugin install tvt --marketplace tvtdev94/agentkit
 ```
 
 On older versions, add the marketplace first: `/plugin marketplace add tvtdev94/agentkit`, then
-`/plugin install refine-prompt@agentkit`. Run it as `/refine-prompt:refine-prompt`.
+`/plugin install tvt@agentkit`. The `tvt` plugin holds all of tvtdev94's skills; run this one
+as `/tvt:refine-prompt`.
 
 ## Use
 
 ```
-/refine-prompt fix the bug and make it production quality
-/refine-prompt path/to/agent-prompt.md
+/tvt:refine-prompt fix the bug and make it production quality
+/tvt:refine-prompt path/to/agent-prompt.md
 ```
 
 The skill is invoked manually only (`disable-model-invocation: true`), so it never

@@ -9,7 +9,7 @@ license: MIT
 user-invocable: true
 ---
 
-# /cc-video — Claude sees a video deeply
+# /tvt:cc-video — Claude sees a video deeply
 
 Unlike a uniform-fps frame dump, this skill produces a structured timeline:
 shot-by-shot summaries + word-level transcript + speaker tags + OCR of on-screen

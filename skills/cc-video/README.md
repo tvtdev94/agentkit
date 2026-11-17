@@ -151,24 +151,24 @@ cc-video analyze <source>
 
 ## Use as a Claude Code plugin
 
-Install the plugin in Claude Code (2.1.275 or later):
+Install the `tvt` plugin, which holds this skill, in Claude Code (2.1.275 or later):
 
 ```
-/plugin install cc-video --marketplace tvtdev94/agentkit
+/plugin install tvt --marketplace tvtdev94/agentkit
 ```
 
 The plugin calls the `cc-video` command, so install the Python package once:
 
 ```bash
 git clone https://github.com/tvtdev94/agentkit.git
-pip install -e 'agentkit/plugins/cc-video[all]'
+pip install -e 'agentkit/skills/cc-video[all]'
 ```
 
 Then in Claude Code:
 
 ```
-/cc-video:cc-video https://youtu.be/abc what stack did they use?
-/cc-video:cc-video screen-recording.mp4 where does the error appear?
+/tvt:cc-video https://youtu.be/abc what stack did they use?
+/tvt:cc-video screen-recording.mp4 where does the error appear?
 ```
 
 The skill (`SKILL.md`) tells Claude to run `cc-video analyze`, then `Read`

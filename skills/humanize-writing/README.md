@@ -12,11 +12,12 @@ and it makes no promise about GPTZero, Turnitin or similar.
 In Claude Code (2.1.275 or later):
 
 ```
-/plugin install humanize-writing --marketplace tvtdev94/agentkit
+/plugin install tvt --marketplace tvtdev94/agentkit
 ```
 
 On older versions, add the marketplace first: `/plugin marketplace add tvtdev94/agentkit`, then
-`/plugin install humanize-writing@agentkit`.
+`/plugin install tvt@agentkit`. The `tvt` plugin holds all of tvtdev94's skills; this one is
+`/tvt:humanize-writing`.
 
 Then ask Claude Code, for example: "viết lại cho tự nhiên đoạn này", "soi lỗi giọng AI trong
 file docs/intro.md", "humanize this paragraph".

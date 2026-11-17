@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "tvt",
+  "version": "1.0.0",
+  "description": "tvtdev94's personal Claude Code skills: humanize-writing, refine-prompt, cc-video.",
+  "author": {
+    "name": "tvtdev94",
+    "url": "https://github.com/tvtdev94"
+  },
+  "homepage": "https://github.com/tvtdev94/agentkit",
+  "repository": "https://github.com/tvtdev94/agentkit",
+  "license": "MIT",
+  "keywords": ["writing", "humanize", "vietnamese", "prompt", "video"]
+}
