@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-git clone <repo> cc-video && cd cc-video
+git clone https://github.com/tvtdev94/agentkit.git && cd agentkit/plugins/cc-video
 pip install -e '.[all]'             # full features
 # or: pip install -e .              # core only (shots + keyframes)
 
@@ -96,10 +96,10 @@ access — every shot has `start_seconds`, `end_seconds`, `keyframes[]`, `captio
 
 ## Using in Claude Code
 
-Once installed as a skill (`~/.claude/skills/cc-video/`):
+Once installed as a plugin (`/plugin install cc-video --marketplace tvtdev94/agentkit`):
 
 ```
-/cc-video <url-or-path> [question]
+/cc-video:cc-video <url-or-path> [question]
 ```
 
 The skill instructs Claude to:

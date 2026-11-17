@@ -7,17 +7,14 @@ change table so you can check every edit. It returns a prompt; it never runs the
 
 ## Install
 
-Clone into your Claude Code skills directory:
+In Claude Code (2.1.275 or later):
 
-```bash
-git clone https://github.com/tvtdev94/refine-prompt.git ~/.claude/skills/refine-prompt
+```
+/plugin install refine-prompt --marketplace tvtdev94/agentkit
 ```
 
-Or keep the clone elsewhere and link it (Windows PowerShell):
-
-```powershell
-New-Item -ItemType Junction -Path "$HOME\.claude\skills\refine-prompt" -Target "D:\path\to\refine-prompt"
-```
+On older versions, add the marketplace first: `/plugin marketplace add tvtdev94/agentkit`, then
+`/plugin install refine-prompt@agentkit`. Run it as `/refine-prompt:refine-prompt`.
 
 ## Use
 

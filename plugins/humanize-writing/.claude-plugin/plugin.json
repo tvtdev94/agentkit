@@ -1,0 +1,18 @@
+{
+  "name": "humanize-writing",
+  "version": "1.0.0",
+  "description": "Rewrite or audit AI-sounding Vietnamese and English prose so it reads like the writer, without changing facts.",
+  "author": {
+    "name": "tvtdev94",
+    "url": "https://github.com/tvtdev94"
+  },
+  "homepage": "https://github.com/tvtdev94/agentkit/tree/main/plugins/humanize-writing",
+  "repository": "https://github.com/tvtdev94/agentkit",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "humanize",
+    "vietnamese",
+    "editing"
+  ]
+}

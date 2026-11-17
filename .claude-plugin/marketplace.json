@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "agentkit",
+  "description": "tvtdev94's Claude Code skills, installable as plugins.",
+  "owner": {
+    "name": "tvtdev94",
+    "url": "https://github.com/tvtdev94"
+  },
+  "plugins": [
+    {
+      "name": "humanize-writing",
+      "source": "./plugins/humanize-writing",
+      "description": "Rewrite or audit AI-sounding Vietnamese and English prose so it reads like the writer, without changing facts.",
+      "license": "MIT",
+      "keywords": [
+        "writing",
+        "humanize",
+        "vietnamese",
+        "editing"
+      ]
+    },
+    {
+      "name": "refine-prompt",
+      "source": "./plugins/refine-prompt",
+      "description": "Rewrite rough or vague prompts into sharp, paste-ready prompts for AI models and agents, with a change table.",
+      "license": "MIT",
+      "keywords": [
+        "prompt",
+        "prompt-engineering",
+        "agents"
+      ]
+    },
+    {
+      "name": "cc-video",
+      "source": "./plugins/cc-video",
+      "description": "Shot-aware, cross-modal video understanding: shots, keyframes, transcript with speakers, OCR and per-shot captions as a Markdown timeline.",
+      "license": "MIT",
+      "keywords": [
+        "video",
+        "transcript",
+        "ocr",
+        "multimodal"
+      ]
+    }
+  ]
+}

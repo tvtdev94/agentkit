@@ -9,9 +9,14 @@ and it makes no promise about GPTZero, Turnitin or similar.
 
 ## Install
 
-```bash
-ln -s "$PWD" ~/.claude/skills/humanize-writing
+In Claude Code (2.1.275 or later):
+
 ```
+/plugin install humanize-writing --marketplace tvtdev94/agentkit
+```
+
+On older versions, add the marketplace first: `/plugin marketplace add tvtdev94/agentkit`, then
+`/plugin install humanize-writing@agentkit`.
 
 Then ask Claude Code, for example: "viết lại cho tự nhiên đoạn này", "soi lỗi giọng AI trong
 file docs/intro.md", "humanize this paragraph".

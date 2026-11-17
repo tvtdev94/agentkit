@@ -3,8 +3,8 @@ name: cc-video
 description: Deep video understanding for Claude Code. Detects shots (not uniform fps), picks representative keyframes per shot, transcribes with speaker tags, OCRs on-screen text, and pre-captions each shot with a VLM — producing a structured Markdown timeline Claude can read instead of being flooded with raw frames.
 argument-hint: "<video-url-or-path> [question]"
 allowed-tools: Bash, Read
-homepage: https://github.com/anthropics/cc-video
-repository: https://github.com/anthropics/cc-video
+homepage: https://github.com/tvtdev94/agentkit
+repository: https://github.com/tvtdev94/agentkit
 license: MIT
 user-invocable: true
 ---

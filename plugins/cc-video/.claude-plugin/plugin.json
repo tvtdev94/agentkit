@@ -1,19 +1,21 @@
 {
   "name": "cc-video",
   "version": "0.1.0",
-  "description": "Deep video understanding for Claude Code — shot-aware, cross-modal, beyond uniform frame sampling.",
-  "homepage": "https://github.com/anthropics/cc-video",
+  "description": "Shot-aware, cross-modal video understanding: shots, keyframes, transcript with speakers, OCR and per-shot captions as a Markdown timeline.",
+  "author": {
+    "name": "tvtdev94",
+    "url": "https://github.com/tvtdev94"
+  },
+  "homepage": "https://github.com/tvtdev94/agentkit/tree/main/plugins/cc-video",
+  "repository": "https://github.com/tvtdev94/agentkit",
   "license": "MIT",
-  "skills": [
-    {
-      "name": "cc-video",
-      "path": "SKILL.md"
-    }
+  "keywords": [
+    "video",
+    "transcript",
+    "ocr",
+    "multimodal"
   ],
   "commands": [
-    {
-      "name": "cc-video",
-      "path": "commands/cc-video.md"
-    }
+    "./commands/cc-video.md"
   ]
 }
