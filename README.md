@@ -20,7 +20,7 @@ Or add the marketplace once and install from it:
 
 ```
 /plugin marketplace add tvtdev94/agentkit
-/plugin install tvt@agentkit
+/plugin install tvt@tvt-agentkit
 ```
 
 The repository is private, so the machine needs read access to it (for example a logged-in
@@ -37,7 +37,7 @@ pip install -e 'agentkit/skills/cc-video[all]'
 
 ```text
 .claude-plugin/plugin.json        the tvt plugin manifest
-.claude-plugin/marketplace.json   the agentkit marketplace, listing tvt
+.claude-plugin/marketplace.json   the tvt-agentkit marketplace, listing tvt
 skills/<name>/SKILL.md            one folder per skill, with its README, license and tests
 ```
 

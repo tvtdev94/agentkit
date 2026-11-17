@@ -16,7 +16,7 @@ In Claude Code (2.1.275 or later):
 ```
 
 On older versions, add the marketplace first: `/plugin marketplace add tvtdev94/agentkit`, then
-`/plugin install tvt@agentkit`. The `tvt` plugin holds all of tvtdev94's skills; this one is
+`/plugin install tvt@tvt-agentkit`. The `tvt` plugin holds all of tvtdev94's skills; this one is
 `/tvt:humanize-writing`.
 
 Then ask Claude Code, for example: "viết lại cho tự nhiên đoạn này", "soi lỗi giọng AI trong

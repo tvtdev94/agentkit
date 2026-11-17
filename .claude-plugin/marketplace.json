@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
-  "name": "agentkit",
+  "name": "tvt-agentkit",
   "description": "tvtdev94's personal Claude Code skills in one plugin.",
   "owner": {
     "name": "tvtdev94",

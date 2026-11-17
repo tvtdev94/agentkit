@@ -14,7 +14,7 @@ In Claude Code (2.1.275 or later):
 ```
 
 On older versions, add the marketplace first: `/plugin marketplace add tvtdev94/agentkit`, then
-`/plugin install tvt@agentkit`. The `tvt` plugin holds all of tvtdev94's skills; run this one
+`/plugin install tvt@tvt-agentkit`. The `tvt` plugin holds all of tvtdev94's skills; run this one
 as `/tvt:refine-prompt`.
 
 ## Use
