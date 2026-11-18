@@ -1,0 +1,6 @@
+# mix (sfx.py, sampler.py), photo grading, contact sheets, frame check
+numpy
+scipy
+soundfile
+soxr
+pillow

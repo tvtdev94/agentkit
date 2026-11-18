@@ -1,0 +1,10 @@
+{
+  "name": "news-film-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Headless-Chrome frame renderer, reading-time check and mux for the news-film skill (code from lemo-opuscar, MIT).",
+  "engines": { "node": ">=20" },
+  "license": "MIT",
+  "dependencies": { "playwright-core": "^1.63.0" }
+}

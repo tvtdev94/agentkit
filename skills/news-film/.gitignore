@@ -1,0 +1,14 @@
+engine/node_modules/
+engine/.venv/
+engine/.release/
+engine/core/audio/instruments/
+examples/*/raw/
+examples/*/assets/
+examples/*/fonts/
+examples/*/out/
+examples/*/stills/
+examples/*/*.mp4
+examples/*/poster.jpg
+examples/*/events.json
+examples/*/SOURCES.*
+examples/*/out-build.log

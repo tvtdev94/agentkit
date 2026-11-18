@@ -1,0 +1,9 @@
+news-film includes code from Lemo-Opuscar (https://github.com/lemomo-ai/lemo-opuscar), MIT License,
+Copyright (c) 2026 Lemomo (LemoLab): engine/core/render/*, engine/core/audio/sampler.py and sfx.py,
+engine/tools/fetch.sh and assets.json, and examples/*/tools/footage.py. The full licence text is in
+engine/LICENSE-lemo-opuscar-MIT.txt. Lemo-Opuscar's documentation (CC BY-NC 4.0) is not included; the
+skill's guides were written for this skill.
+
+Material the examples download at build time keeps its own licence and is credited in each example's
+CREDITS: photographs (UK OGL v3, CC BY 4.0, public domain, via Wikimedia Commons), Natural Earth (public
+domain), sample libraries (VSCO 2 CE, VCSL: CC0), fonts (SIL OFL 1.1).
