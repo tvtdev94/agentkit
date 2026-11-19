@@ -41,6 +41,7 @@ pip install -e 'agentkit/skills/cc-video[all]'
 .claude-plugin/plugin.json        the tvt plugin manifest
 .claude-plugin/marketplace.json   the tvt-agentkit marketplace, listing tvt
 skills/<name>/SKILL.md            one folder per skill, with its README, license and tests
+claude-md/CLAUDE.md               my global ~/.claude/CLAUDE.md, with notes in claude-md/README.md
 ```
 
 The history of the original repositories was imported with `git subtree`.
