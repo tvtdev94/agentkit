@@ -24,9 +24,6 @@ Or add the marketplace once and install from it:
 /plugin install tvt@tvt-agentkit
 ```
 
-The repository is private, so the machine needs read access to it (for example a logged-in
-`gh` or a git credential helper).
-
 news-film needs Node 20+, ffmpeg and Python 3, and its renderer installed once with
 `scripts/setup.sh` in the skill folder (Claude runs it on first use). It writes three files per story:
 16:9, Reels and Shorts. See [skills/news-film/README.md](skills/news-film/README.md).
